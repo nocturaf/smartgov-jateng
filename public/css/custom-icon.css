@@ -1,0 +1,126 @@
+.side-beranda {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/beranda.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-profil {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/profil.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-misi {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/misi.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-misi1 {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/misi1.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-misi2 {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/misi2.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-misi3 {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/misi3.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-misi4 {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/misi4.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-sektor {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/sektor.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-pertanian {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/pertanian.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-umkm {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/umkm.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-pariwisata {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/pariwisata.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-kesehatan {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/kesehatan.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-socmed {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/socmed.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-ecommerce {
+    /* background-image: url("../assets/image/aset_smartgov/sidebar/beranda.png"); */
+    background-image: url("../images/icons/ecommerce.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }

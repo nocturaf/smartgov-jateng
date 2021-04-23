@@ -1,0 +1,78 @@
+/*Googel Fonts  */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+/* Googel Fonts End  */
+
+/* FONT SIZES */
+.font-10{
+    font-size: 0.625rem;
+}
+.font-14{
+    font-size: 0.875rem;
+}
+.font-16{
+    font-size: 1rem;
+}
+.font-18{
+    font-size: 1.125rem;
+}
+.font-20{
+    font-size: 1.25rem;
+}
+.font-24{
+    font-size: 1.5rem;
+}
+.font-36{
+    font-size: 2.25rem;
+}
+/* END OF FONT SIZES */
+
+/* SHADOW */
+.shadow-1{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.125);
+}
+.shadow-2{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.07);
+}
+/* END OF SHADOW */
+
+.navbar-btn{
+    background-color: #fff;
+    border-radius: 50px;
+    font-size:12px;
+    padding: 2px 12px;
+    font-weight: bold;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.25);
+}
+
+.red-bg{
+    background-color: #DC3C3B;
+}
+
+.sidenav a, .dropdown-btn{
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #212121;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.sidenav a:hover , .dropdown-btn:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
