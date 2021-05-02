@@ -70,42 +70,53 @@
     <div class="row mx-0">
         <div class="col-6 pl-4 pr-5 border-right">
             <div class="font-24 font-weight-bold text-center">Pendapatan Asli Daerah</div>
-            <div class="mt-4 bg-overlay-custom" style="background-image: url('images/profil-page/bg-2.png');">
-                <div class="font-18 mb-5">
-                    <div class="grad-line"></div>
-                    Hasil Pengelolaan Keuangan<br>Daerah yang Dipisahkan
-                </div>
-                <div class="font-24 text-right">
-                Rp128.621.850.000,-
-                </div>
-            </div>
-            <div class="mt-5 bg-overlay-custom" style="background-image: url('images/profil-page/bg-3.png');">
-                <div class="font-18 mb-5">
-                    <div class="grad-line"></div>
-                    Pajak Daerah
-                </div>
-                <div class="font-24 text-right">
-                    Rp1.765.523.088.000,-
-                </div>
-            </div>
+            <?php foreach($profile as $p) :?>
+                <?php if($p['nama'] == 'hkpp') :?>
+                    <div class="mt-4 bg-overlay-custom" style="background-image: url('images/profil-page/bg-2.png');">
+                        <div class="font-18 mb-5">
+                            <div class="grad-line"></div>
+                            Hasil Pengelolaan Keuangan<br>Daerah yang Dipisahkan
+                        </div>
+                        <div class="font-24 text-right" >
+                    
+                        <p>Rp <span class="uang"><?= $p['nilai'];?></span></p>   
+                        </div>
+                    </div>
+                <?php endif;?>
+                <?php if($p['nama'] == 'pajakdaerah') : ?>
+                    <div class="mt-5 bg-overlay-custom" style="background-image: url('images/profil-page/bg-3.png');">
+                        <div class="font-18 mb-5">
+                            <div class="grad-line"></div>
+                            Pajak Daerah
+                        </div>
+                        <div class="font-24 text-right">
+                        <p>Rp <span class="uang"><?= $p['nilai'];?></span></p>  
+                        </div>
+                    </div>
+                <?php endif;?>
+            <?php if($p['nama'] == 'retribusidaerah') : ?>
             <div class="mt-5 bg-overlay-custom" style="background-image: url('images/profil-page/bg-4.png');">
                 <div class="font-18 mb-5">
                     <div class="grad-line"></div>
                     Retribusi Daerah
                 </div>
                 <div class="font-24 text-right">
-                    Rp546.749.969.000,-
+                <p>Rp <span class="uang"><?= $p['nilai'];?></span></p>  
                 </div>
             </div>
+            <?php endif;?>
+            <?php if($p['nama'] == 'llps') : ?>
             <div class="mt-5 bg-overlay-custom" style="background-image: url('images/profil-page/bg-5.png');">
                 <div class="font-18 mb-5">
                     <div class="grad-line"></div>
                     Lain-lain PAD yang Sah
                 </div>
                 <div class="font-24 text-right">
-                    Rp.12.973.821.192.000,-
+                <p>Rp <span class="uang"><?= $p['nilai'];?></span></p>  
                 </div>
             </div>
+            <?php endif;?>
+            <?php endforeach;?>
         </div>
         <div class="col-6 pr-4 pl-5">
             <div class="font-24 font-weight-bold text-center">Demografis</div>
@@ -115,23 +126,31 @@
                     Jumlah Penduduk
                 </div>
                 <div class="row mx-0">
+                <?php $total = 0;foreach($penduduk as $pen):?>
+                    <?php if($pen['jenis_kelamin'] == "Laki Laki"):?>
                     <div class="col-4 text-right my-auto p-0">
                         <div class="font-14 font-weight-normal">Laki-laki</div>
-                        <div class="font-16">17.101.086</div>
+                        <div class="font-16 jumlah"><?= $pen['total'];?></div>
+                        <?php $total+= $pen['total'];?>
                         <div class="font-10 font-weight-normal">Jiwa</div>
                     </div>
                     <div class="col-4">
                         <img class="img text-center" src="images/profil-page/penduduk.png" alt="" width="100%">
                     </div>
+                    <?php endif;?>
+                    <?php if($pen['jenis_kelamin'] == "Perempuan"): ?>
                     <div class="col-4 text-left my-auto p-0">
                         <div class="font-14 font-weight-normal">Perempuan</div>
-                        <div class="font-16">17.389.029</div>
+                        <div class="font-16 jumlah"><?= $pen['total'];?></div>
+                        <?php $total+= $pen['total'];?>
                         <div class="font-10 font-weight-normal">Jiwa</div>
                     </div>
                     <div class="col-12 text-center pt-2">
                         <div class="font-14 font-weight-normal">Total</div>
-                        <div class="font-16">34.490.835 <span class="font-10 font-weight-normal">Jiwa</span></div>
+                        <div class="font-16 "> <span class="jumlah"> <?= $total;?> </span><span class="font-10 font-weight-normal"> Jiwa</span></div>
                     </div>
+                    <?php endif;?>
+                <?php endforeach;?>
                 </div>
             </div>
             <div class="mt-5 bg-overlay-custom" style="background-image: url('images/profil-page/bg-7.png');">
@@ -286,6 +305,7 @@
         </div>
     </div>
 </div>
+
 @endsection
 
 @push('before-style')
