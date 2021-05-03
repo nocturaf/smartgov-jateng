@@ -16,5 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/home', 'HomeController@index')->name('home');;
-Route::get('/profil', 'ProfilController@index')->name('profil');;
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/profil', 'ProfilController@index')->name('profil');
+Route::get('/iku-pertanian', 'PertanianController@iku')->name('iku-pertanian');
+Route::get('/try', 'TryController@index')->name('try');

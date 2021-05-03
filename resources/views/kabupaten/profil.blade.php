@@ -256,7 +256,7 @@
                 </div>
                 <div class="w-75">
                     : Laut Jawa
-                    <br>: Samudera Hindia dan Provinsi DIY Yogyakarta
+                    <br>: Samudera Hindia dan Prov. DIY Yogyakarta
                     <br>: Provinsi Jawa Timur
                     <br>: Provinsi Jawa Barat
                 </div>

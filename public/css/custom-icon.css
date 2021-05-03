@@ -124,3 +124,19 @@
     background-position-y: 20%;
     padding: 2px;
   }
+.side-iku {
+    background-image: url("../images/icons/iku.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }
+.side-datapendukung {
+    background-image: url("../images/icons/data-pendukung.png");
+    background-repeat: no-repeat;
+    padding-left: 18px !important;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 2px;
+  }

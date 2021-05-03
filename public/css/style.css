@@ -6,6 +6,9 @@
 .font-10{
     font-size: 0.625rem;
 }
+.font-12{
+    font-size: 0.75rem;
+}
 .font-14{
     font-size: 0.875rem;
 }
@@ -35,6 +38,7 @@
 }
 /* END OF SHADOW */
 
+/* BUTTON */
 .navbar-btn{
     background-color: #fff;
     border-radius: 50px;
@@ -43,6 +47,18 @@
     font-weight: bold;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.25);
 }
+
+.btn-red{
+    background-color: #DC3C3B;
+    font-size: 14px;
+    padding: 4px 8px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.07);
+    width: 100%;
+    border-radius: 0px;
+}
+/* END OF BUTTON */
 
 .red-bg{
     background-color: #DC3C3B;
@@ -68,7 +84,7 @@
 
   .dropdown-container {
     display: none;
-    padding-left: 8px;
+    padding-left: 12px;
   }
   
   /* Optional: Style the caret down icon */
@@ -76,3 +92,69 @@
     float: right;
     padding-right: 8px;
   }
+
+  /* SLICK */
+    .slick-list {
+    padding: 1rem 0rem !important;
+    /* margin: 0rem 2rem !important; */
+  }
+  .slick-list.draggable{
+    height: 100% !important;
+  }
+  .slick-slider{
+      height: 420px;
+  }
+  .slick-prev:before {
+    color: #D0D0D0 !important;
+  }
+  .slick-next:before {
+    color: #D0D0D0 !important;
+  }
+  .slick-slide img {
+    display: unset !important;
+}
+  /* END OF SLICK */
+
+  .c-pointer{
+      cursor: pointer;
+  }
+
+  /* TABS */
+  ul.tabs {
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  ul.tabs li {
+    z-index: 1;
+    display: inline-block;
+    cursor: pointer;
+  }
+  ul.tabs li .img{
+      height: 64px;
+      padding-top: 10px;
+  }
+  
+  ul.tabs li.current .img {
+      height: 84px;
+      padding-top: 0px;
+  }
+  
+  ul.tabs li .img:hover {
+    height: 84px;
+    padding-top: 0px;
+    transition: 0.3s;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 15px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+  }
+  
+  .tab-content.current {
+    display: inherit;
+  }
+/* END OF TABS */

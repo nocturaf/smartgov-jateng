@@ -17,26 +17,12 @@
   @stack('before-style')
   @include('includes.style')
   @stack('after-style')
-  
+
 </head>
 
 <body>
-  <!-- NAVBAR -->
-  <div class="row mx-0">
-    <div class="w-25 min-vh-100 bg-white shadow-1" style="z-index:1">
-      <!-- SIDEBAR -->
-      @include('includes.sidebar')
-    </div>
-    <div id="right-panel" class="w-75 bg-white">
-      @include('includes.navbar')
-      <div class="content">
-        <!-- Content -->
-        @yield('content')
-      </div>
-      <div class="clearfix"></div>
-    </div>
-  </div>
-
+    @yield('content')
+    
   <!-- SCRIPT -->
   @stack('before-script')
   @include('includes.script')

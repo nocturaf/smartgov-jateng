@@ -19,10 +19,26 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#"><em class="side-pertanian mr-2"></em> Pertanian</a>
-            <a href="#"><em class="side-umkm mr-2"></em> UMKM</a>
-            <a href="#"><em class="side-pariwisata mr-2"></em> Pariwisata</a>
-            <a href="#"><em class="side-kesehatan mr-2"></em> Kesehatan</a>
+            <button class="dropdown-btn"><em class="side-pertanian mr-2"></em> Pertanian <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="iku-pertanian"><em class="side-iku mr-2"></em> IKU</a>
+                <a href="#"><em class="side-datapendukung mr-2"></em> Data Pendukung</a>
+            </div>
+            <button class="dropdown-btn"><em class="side-umkm mr-2"></em> UMKM <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="#"><em class="side-iku mr-2"></em> IKU</a>
+                <a href="#"><em class="side-datapendukung mr-2"></em> Data Pendukung</a>
+            </div>
+            <button class="dropdown-btn"><em class="side-pariwisata mr-2"></em> Pariwisata <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="#"><em class="side-iku mr-2"></em> IKU</a>
+                <a href="#"><em class="side-datapendukung mr-2"></em> Data Pendukung</a>
+            </div>
+            <button class="dropdown-btn"><em class="side-kesehatan mr-2"></em> Kesehatan <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="#"><em class="side-iku mr-2"></em> IKU</a>
+                <a href="#"><em class="side-datapendukung mr-2"></em> Data Pendukung</a>
+            </div>
         </div>
         <a href="#contact"><em class="side-socmed mr-2"></em> Social Media Analytic</a>
         <a href="#contact"><em class="side-ecommerce mr-2"></em> E-Commerce Analytic</a>
