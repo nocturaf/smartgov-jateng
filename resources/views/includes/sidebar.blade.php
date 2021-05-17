@@ -22,7 +22,7 @@
             <button class="dropdown-btn"><em class="side-pertanian mr-2"></em> Pertanian <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-container">
                 <a href="iku-pertanian"><em class="side-iku mr-2"></em> IKU</a>
-                <a href="#"><em class="side-datapendukung mr-2"></em> Data Pendukung</a>
+                <a href="data-pendukung-pertanian"><em class="side-datapendukung mr-2"></em> Data Pendukung</a>
             </div>
             <button class="dropdown-btn"><em class="side-umkm mr-2"></em> UMKM <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-container">

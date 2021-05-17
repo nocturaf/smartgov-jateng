@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-<div class="container bg-overlay">
+<div class="container-fluid bg-overlay">
 	<div class="row mx-3">
         <div class="col text-center">
             <img class="img" src="images/gub.png" alt="" width="95%" height="auto">
@@ -66,7 +66,7 @@
     </div>
 </div>
 
-<div class="container bg-overlay-blue pb-5" style="margin-top:-24px">
+<div class="container-fluid bg-overlay-blue pb-5" style="margin-top:-24px">
     <div class="row mx-0">
         <div class="col-6 pl-4 pr-5 border-right">
             <div class="font-24 font-weight-bold text-center">Pendapatan Asli Daerah</div>
@@ -258,7 +258,7 @@
     </div>
 </div>
 
-<div class="container bg-overlay-blue2 py-5">
+<div class="container-fluid bg-overlay-blue2 py-5">
     <div class="font-24 font-weight-bold text-center" style="padding-bottom:100px">Letak Geografis</div>
     <div class="row mx-0 px-5 py-4">
         <div class="col-7 bg-overlay-black text-white p-3">

@@ -13,10 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/login', 'LoginController@index')->name('login');
+Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profil', 'ProfilController@index')->name('profil');
 Route::get('/iku-pertanian', 'PertanianController@iku')->name('iku-pertanian');
+Route::get('/data-pendukung-pertanian', 'PertanianController@dataPendukung')->name('data-pendukung-pertanian');
 Route::get('/try', 'TryController@index')->name('try');

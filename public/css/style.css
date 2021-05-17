@@ -190,3 +190,21 @@
     display: inherit;
   }
 /* END OF TABS */
+
+/* RESPONSIVE */
+@media only screen and (min-device-aspect-ratio:16/10) { 
+  .w-25{
+    width: 20% !important;
+  }
+  .w-75{
+    width: 80% !important;
+  }
+}
+@media only screen and (min-device-aspect-ratio:3/2) { 
+  .w-25{
+    width: 25% !important;
+  }
+  .w-75{
+    width: 75% !important;
+  }
+}
