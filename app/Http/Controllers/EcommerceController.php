@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class EcommerceController extends Controller
 {
     //
     public function index(){
-        return view('kabupaten/kabHome',['pages'=>'home']);
+        return view('ecommerce/ecommerce', ['pages'=>'ecommerce']);
     }
 }

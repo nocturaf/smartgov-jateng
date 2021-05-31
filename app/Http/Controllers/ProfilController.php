@@ -18,7 +18,7 @@ class ProfilController extends Controller
         $penduduk = penduduk::all();
         $suku = suku::all();
         $agama = agama::all();
-        return view('kabupaten/profil',['profile' => $profile ,'penduduk' => $penduduk , 'suku' => $suku , 'agama' => $agama]);
+        return view('kabupaten/profil',['profile' => $profile ,'penduduk' => $penduduk , 'suku' => $suku , 'agama' => $agama,'pages'=>'profil']);
         // foreach (profile::all() as $profile) {
         //     echo $profile->nama.' ';
         // }
