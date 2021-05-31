@@ -36,10 +36,14 @@
     font-size: 1.5rem;
     line-height: 1.875rem;
   }
+  .font-30{
+    font-size: 1.825rem;
+    line-height: 2.625rem;
+  }
   .font-36{
     font-size: 2.25rem;
     line-height: 2.625rem;
-}
+  }
 .font-lato{
     font-family: "Lato";
 }
