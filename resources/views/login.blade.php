@@ -17,7 +17,7 @@
   @include('includes.style')
   <style>
     .bg-overlay {
-        background: url("images/login-bg.png");
+        background: url("images/login-bg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -25,6 +25,9 @@
     }
     .login-box{
         background: rgba(246, 245, 251, 0.6);
+    }
+    .modal-dialog {
+        max-width: 315px;
     }
   </style>
   
@@ -43,16 +46,16 @@
                     <div class="form-group">
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukkan Password Anda">
                     </div>
-                    <button type="submit" class="btn btn-danger w-100">Login</button>
+                    <button type="button" class="btn btn-danger w-100" data-toggle="modal" data-target="#errorModal">Login</button>
                     <div class="row mx-0 mt-2">
                         <div class="w-50 text-left text-white">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
+                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
                             </div>
                         </div>
                         <div class="w-50 text-right">
-                            <a href="" class="text-white">Lupa Password?</a>
+                            <a href="" class="text-white">Forgot Password?</a>
                         </div>
                     </div>
                 </form>
@@ -62,6 +65,21 @@
         </div>
         <div class="clearfix"></div>
     </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body p-5 text-center">
+        <div class="font-30 font-weight-bold" style="color:#D81A1A;">Oops!</div>
+        <div class="font-18 font-weight-bold mt-3" style="color:#555555">Login failed</div>
+        <div class="font-16"style="color:#555555">Invalid username or password</div>
+        <button type="button" class="mt-4 btn btn-sm text-white px-5" style="background-color:#BB1C0F;"  data-dismiss="modal">OK</button>
+
+      </div>
+    </div>
+  </div>
 </div>
 
   <!-- SCRIPT -->

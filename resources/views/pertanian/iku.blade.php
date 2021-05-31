@@ -109,10 +109,10 @@
         <div class="row mx-0 mt-3">
             <div class="col-4 text-center">
                 <div class="font-24 font-weight-bold font-lato text-center" style="color:#B44451">Sektor Kehutanan</div>
-                <ul class="hutan-tabs d-flex text-center mt-3">
+                <ul class="hutan-tabs mx-auto d-flex text-center mt-3">
                     <li class="current" data-tab="hutan-1">2018</li>
-                    <li class="" data-tab="hutan-2">2019</li>
-                    <li class="" data-tab="hutan-3">2020</li>
+                    <li data-tab="hutan-2">2019</li>
+                    <li data-tab="hutan-3">2020</li>
                 </ul>
                 <div id="hutan-1" class="hutan-tab-content current">
                     <div class="hutan-circle mt-4" data-value="0.30" data-thickness="15" data-fill="{}">
@@ -124,7 +124,7 @@
                         <strong class="circle-text font-36"></strong>
                     </div>
                 </div>
-                <div id="hutan-3" class="tab-content">
+                <div id="hutan-3" class="hutan-tab-content">
                     <div class="hutan-circle mt-4" data-value="0.50" data-thickness="15" data-fill="{}">
                         <strong class="circle-text font-36"></strong>
                     </div>
@@ -135,10 +135,10 @@
             </div>
             <div class="col-4 text-center">
                 <div class="font-24 font-weight-bold font-lato text-center" style="color:#B44451">Sektor Pertanian</div>
-                <ul class="tani-tabs d-flex text-center mt-3">
+                <ul class="tani-tabs mx-auto d-flex text-center mt-3">
                     <li class="current" data-tab="tani-1">2018</li>
-                    <li class="" data-tab="tani-2">2019</li>
-                    <li class="" data-tab="tani-3">2020</li>
+                    <li data-tab="tani-2">2019</li>
+                    <li data-tab="tani-3">2020</li>
                 </ul>
                 <div id="tani-1" class="tani-tab-content current">
                     <div class="tani-circle mt-4" data-value="0.30" data-thickness="15" data-fill="{}">
@@ -158,7 +158,7 @@
             </div>
             <div class="col-4 text-center">
                 <div class="font-24 font-weight-bold font-lato text-center" style="color:#B44451">Sektor Perikanan</div>
-                <ul class="ikan-tabs d-flex text-center mt-3">
+                <ul class="ikan-tabs mx-auto d-flex text-center mt-3">
                     <li class="current" data-tab="ikan-1">2018</li>
                     <li class="" data-tab="ikan-2">2019</li>
                     <li class="" data-tab="ikan-3">2020</li>

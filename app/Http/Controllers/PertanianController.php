@@ -8,9 +8,9 @@ class PertanianController extends Controller
 {
     //
     public function iku(){
-        return view('pertanian/iku');
+        return view('pertanian/iku', ['pages'=>'ikuPertanian']);
     }
     public function dataPendukung(){
-        return view('pertanian/data-pendukung');
+        return view('pertanian/data-pendukung',['pages'=>'dataPendukungPertanian']);
     }
 }

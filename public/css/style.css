@@ -36,10 +36,14 @@
     font-size: 1.5rem;
     line-height: 1.875rem;
   }
+  .font-30{
+    font-size: 1.825rem;
+    line-height: 2.625rem;
+  }
   .font-36{
     font-size: 2.25rem;
     line-height: 2.625rem;
-}
+  }
 .font-lato{
     font-family: "Lato";
 }
@@ -155,6 +159,7 @@
     border-radius: 5px;
     border: 1px solid #B44451;
     list-style: none;
+    width: fit-content;
     
   }
   ul.tabs li{
@@ -217,6 +222,16 @@
     display: inherit;
   }
 /* END OF TABS */
+
+.active{
+  display: block;
+}
+
+.on{
+  background-color: #DC3C3B !important;
+  color: #fff !important;
+  border-radius: 10px;
+}
 
 /* RESPONSIVE */
 @media only screen and (min-device-aspect-ratio:16/10) { 

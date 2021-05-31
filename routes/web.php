@@ -20,4 +20,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profil', 'ProfilController@index')->name('profil');
 Route::get('/iku-pertanian', 'PertanianController@iku')->name('iku-pertanian');
 Route::get('/data-pendukung-pertanian', 'PertanianController@dataPendukung')->name('data-pendukung-pertanian');
+Route::get('/social-media', 'SocialMediaController@index')->name('social-media');
+Route::get('/e-commerce', 'EcommerceController@index')->name('e-commerce');
 Route::get('/try', 'TryController@index')->name('try');
