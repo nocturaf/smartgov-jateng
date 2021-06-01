@@ -17,8 +17,7 @@ class LoginController extends Controller
         Auth::logout();
 
         $request->session()->invalidate();
-
-        return redirect('/login');
+        return redirect('login');
     }
 
     public function authenticate(Request $request)
@@ -35,7 +34,7 @@ class LoginController extends Controller
             $credentials = ['email' => $email, 'password' => $hashedPassword];
             if (Auth::attempt($credentials)) {
                 $request->session()->regenerate();
-                return redirect()->intended('/');
+                return redirect('/home');
             }
 
             return back()->withErrors([
