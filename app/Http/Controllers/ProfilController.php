@@ -11,18 +11,12 @@ use App\Models\agama;
 
 class ProfilController extends Controller
 {
-    //
-    public function index(){
-        // return view('kabupaten/profil');
-        $profile = profile::all();
-        $penduduk = penduduk::all();
-        $suku = suku::all();
-        $agama = agama::all();
-        return view('kabupaten/profil',['profile' => $profile ,'penduduk' => $penduduk , 'suku' => $suku , 'agama' => $agama,'pages'=>'profil']);
-        // foreach (profile::all() as $profile) {
-        //     echo $profile->nama.' ';
-        // }
-        
-    }
+        public function index()
+        {
+                $profile = profile::all();
+                $penduduk = penduduk::all();
+                $suku = suku::all();
+                $agama = agama::all();
+                return view('kabupaten/profil', ['profile' => $profile, 'penduduk' => $penduduk, 'suku' => $suku, 'agama' => $agama, 'pages' => 'profil']);
+        }
 }
-

@@ -7,7 +7,4 @@ use Illuminate\Database\Eloquent\Model;
 
 class beranda extends Model
 {
-    use HasFactory;
-    protected $table = 'sektor';
-    protected $primaryKey = 'id';
 }
