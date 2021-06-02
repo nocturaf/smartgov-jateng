@@ -322,7 +322,7 @@
         margin: 1.5rem 1rem;
         padding: 0.5rem;
         border: 1px solid #dee2e6;
-        font-size: 10px;
+        font-size: 12px;
     }
     .slick-slider{
       height: 520px !important;

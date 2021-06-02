@@ -23,6 +23,8 @@ Route::group(['middleware' => 'revalidate'], function () {
     // route after login
     Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
     Route::get('/profil', 'ProfilController@index')->name('profil')->middleware('auth');
+    Route::get('/akun-pengguna', 'AkunPenggunaController@index')->name('akun-pengguna')->middleware('auth');
+    Route::get('/ubah-password', 'UbahPasswordController@index')->name('ubah-password')->middleware('auth');
     Route::get('/iku-pertanian', 'PertanianController@iku')->name('iku-pertanian')->middleware('auth');
     Route::get('/data-pendukung-pertanian', 'PertanianController@dataPendukung')->name('data-pendukung-pertanian')->middleware('auth');
     Route::get('/social-media', 'SocialMediaController@index')->name('social-media')->middleware('auth');
