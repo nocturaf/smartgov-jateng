@@ -34,6 +34,7 @@ class LoginController extends Controller
             $credentials = ['email' => $email, 'password' => $hashedPassword];
             if (Auth::attempt($credentials)) {
                 $request->session()->regenerate();
+                $request->session()->put('loggedUserEmail', $email);
                 return redirect('/home');
             }
 
