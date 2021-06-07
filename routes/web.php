@@ -29,5 +29,6 @@ Route::group(['middleware' => 'revalidate'], function () {
     Route::get('/data-pendukung-pertanian', 'PertanianController@dataPendukung')->name('data-pendukung-pertanian')->middleware('auth');
     Route::get('/social-media', 'SocialMediaController@index')->name('social-media')->middleware('auth');
     Route::get('/e-commerce', 'EcommerceController@index')->name('e-commerce')->middleware('auth');
+    Route::get('/misi-pertama', 'MisiPertamaController@index')->name('misi-pertama')->middleware('auth');
     Route::get('/try', 'TryController@index')->name('try')->middleware('auth');
 });

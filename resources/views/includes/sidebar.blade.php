@@ -19,8 +19,16 @@
         <button class="dropdown-btn px-3"><em class="side-misi mr-2"></em> Misi
             <em class="fa fa-caret-down"></em>
         </button>
+        @if( Route::current()->getName() == "misi-pertama")
+        <div class="dropdown-container active">
+        @else
         <div class="dropdown-container">
-            <a href="#" class="px-3"><em class="side-misi1 mr-2"></em> IK MIsi Pertama</a>
+        @endif
+            @if( Route::current()->getName() == "misi-pertama")
+            <a href="{{route('misi-pertama')}}" class="on px-3"><em class="side-misi1 mr-2"></em> IK MIsi Pertama</a>
+            @else
+            <a href="{{route('misi-pertama')}}" class="px-3"><em class="side-misi1 mr-2"></em> IK MIsi Pertama</a>
+            @endif
             <a href="#" class="px-3"><em class="side-misi2 mr-2"></em> IK MIsi Kedua</a>
             <a href="#" class="px-3"><em class="side-misi3 mr-2"></em> IK MIsi Ketiga</a>
             <a href="#" class="px-3"><em class="side-misi4 mr-2"></em> IK MIsi Keempat</a>
