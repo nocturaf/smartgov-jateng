@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="w-50 text-right">
-                                <a href="" class="text-white">Forgot Password?</a>
+                                <a href="" class="text-white" data-toggle="modal" data-target="#forgotPasswordModal">Forgot Password?</a>
                             </div>
                         </div>
                     </form>
@@ -71,13 +71,23 @@
     </div>
 
     <!-- MODAL -->
-    <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body p-5 text-center">
                     <div class="font-30 font-weight-bold" style="color:#D81A1A;">Oops!</div>
                     <div class="font-18 font-weight-bold mt-3" style="color:#555555">Login failed</div>
                     <div class="font-16" style="color:#555555">Invalid email or password</div>
+                    <button type="button" class="mt-4 btn btn-sm text-white px-5" style="background-color:#BB1C0F;" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="forgotPasswordModal" tabindex="-1" role="dialog" aria-labelledby="forgotPasswordLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-5 text-center">
+                    <div class="font-18 font-weight-bold">Harap menghubungi super admin untuk melakukan update password.</div>
                     <button type="button" class="mt-4 btn btn-sm text-white px-5" style="background-color:#BB1C0F;" data-dismiss="modal">OK</button>
                 </div>
             </div>

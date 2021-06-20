@@ -19,19 +19,31 @@
         <button class="dropdown-btn px-3"><em class="side-misi mr-2"></em> Misi
             <em class="fa fa-caret-down"></em>
         </button>
-        @if( Route::current()->getName() == "misi-pertama")
+        @if( Route::current()->getName() == "misi-pertama" || Route::current()->getName() == "misi-kedua" || Route::current()->getName() == "misi-ketiga" || Route::current()->getName() == "misi-keempat")
         <div class="dropdown-container active">
         @else
         <div class="dropdown-container">
         @endif
             @if( Route::current()->getName() == "misi-pertama")
-            <a href="{{route('misi-pertama')}}" class="on px-3"><em class="side-misi1 mr-2"></em> IK MIsi Pertama</a>
+            <a href="{{route('misi-pertama')}}" class="on px-3"><em class="side-misi1 mr-2"></em> IK Misi Pertama</a>
             @else
-            <a href="{{route('misi-pertama')}}" class="px-3"><em class="side-misi1 mr-2"></em> IK MIsi Pertama</a>
+            <a href="{{route('misi-pertama')}}" class="px-3"><em class="side-misi1 mr-2"></em> IK Misi Pertama</a>
             @endif
-            <a href="#" class="px-3"><em class="side-misi2 mr-2"></em> IK MIsi Kedua</a>
-            <a href="#" class="px-3"><em class="side-misi3 mr-2"></em> IK MIsi Ketiga</a>
-            <a href="#" class="px-3"><em class="side-misi4 mr-2"></em> IK MIsi Keempat</a>
+            @if( Route::current()->getName() == "misi-kedua")
+            <a href="{{route('misi-kedua')}}" class="on px-3"><em class="side-misi2 mr-2"></em> IK Misi Kedua</a>
+            @else
+            <a href="{{route('misi-kedua')}}" class="px-3"><em class="side-misi2 mr-2"></em> IK Misi Kedua</a>
+            @endif
+            @if( Route::current()->getName() == "misi-ketiga")
+            <a href="{{route('misi-ketiga')}}" class="on px-3"><em class="side-misi3 mr-2"></em> IK Misi Ketiga</a>
+            @else
+            <a href="{{route('misi-ketiga')}}" class="px-3"><em class="side-misi3 mr-2"></em> IK Misi Ketiga</a>
+            @endif
+            @if( Route::current()->getName() == "misi-keempat")
+            <a href="{{route('misi-keempat')}}" class="on px-3"><em class="side-misi4 mr-2"></em> IK Misi Keempat</a>
+            @else
+            <a href="{{route('misi-keempat')}}" class="px-3"><em class="side-misi4 mr-2"></em> IK Misi Keempat</a>
+            @endif
         </div>
 
         <button class="dropdown-btn px-3"><em class="side-sektor mr-2"></em> Sektor

@@ -68,18 +68,18 @@
                             </div>
                                 <div class="row mx-0" data-toggle="tooltip" data-html="true" data-placement="right" 
                                     title="<div style='max-width:500px;width:500px;position:relative;overflow:auto;'>
-                                        <div class='font-weight-bold'>Nilai Tukar Petani</div> 
-                                        <br> Nilai tukar petani adalah rasio antara indeks harga yang diterima petani dengan indeks harga yang dibayar petani yang dinyatakan dalam persentase. Nilai tukar petani merupakan salah satu indikator dalam menentukan tingkat kesejahteraan petani. 
+                                        <div class='font-weight-bold'>Pertumbuhan Sektor Kehutanan, Perikanan dan Pertanian</div> 
+                                        <br> Pertumbuhan Sektor Kehutanan, Perikanan dan Pertanian 
                                         <div class='row mx-0 pt-3'>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
+                                                <div class='h5 p-0 m-0'>75%</div>
                                                 November
                                             </div>
-                                            <div class='col-2 p-0 my-auto text-danger'>
-                                                <div class='h3 m-0 p-0 fas fa-sort-down'></div>
+                                            <div class='col-2 p-0 my-auto text-success'>
+                                                <div class='h3 m-0 p-0 fas fa-caret-up'></div>
                                             </div>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
+                                                <div class='h5 p-0 m-0'>80%</div>
                                                 Desember
                                             </div>
                                         </div>
@@ -119,45 +119,24 @@
     
                                 <div class="row mx-0" data-toggle="tooltip" data-html="true" data-placement="right" 
                                     title="<div style='max-width:500px;width:500px;position:relative;overflow:auto;'>
-                                        <div class='font-weight-bold'>Nilai Tukar Petani</div> 
-                                        <br> Nilai tukar petani adalah rasio antara indeks harga yang diterima petani dengan indeks harga yang dibayar petani yang dinyatakan dalam persentase. Nilai tukar petani merupakan salah satu indikator dalam menentukan tingkat kesejahteraan petani. 
+                                        <div class='font-weight-bold'>PRDB</div> 
+                                        <br> Produk Domestik Regional Bruto atas dasar harga pasar adalah jumlah nilai tambah bruto (gross value added) yang timbul dari seluruh sektor perekonomian di suatu wilayah. 
                                         <div class='row mx-0 pt-3'>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
-                                                November
+                                                <div class='h5 p-0 m-0'>3.19%</div>
+                                                2018
                                             </div>
-                                            <div class='col-2 p-0 my-auto text-danger'>
-                                                <div class='h3 m-0 p-0 fas fa-sort-down'></div>
+                                            <div class='col-2 p-0 my-auto text-success'>
+                                                <div class='h3 m-0 p-0 fas fa-caret-up'></div>
                                             </div>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
-                                                Desember
+                                                <div class='h5 p-0 m-0'>3.21%</div>
+                                                2019
                                             </div>
                                         </div>
                                     </div>">
-                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Nilai Tukar Petani</div>
-                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">101,49</div>
-                                </div>
-                                <div class="row mx-0" data-toggle="tooltip" data-html="true" data-placement="right" 
-                                    title="<div style='max-width:500px;width:500px;position:relative;overflow:auto;'>
-                                        <div class='font-weight-bold'>Nilai Tukar Petani</div> 
-                                        <br> Nilai tukar petani adalah rasio antara indeks harga yang diterima petani dengan indeks harga yang dibayar petani yang dinyatakan dalam persentase. Nilai tukar petani merupakan salah satu indikator dalam menentukan tingkat kesejahteraan petani. 
-                                        <div class='row mx-0 pt-3'>
-                                            <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
-                                                November
-                                            </div>
-                                            <div class='col-2 p-0 my-auto text-danger'>
-                                                <div class='h3 m-0 p-0 fas fa-sort-down'></div>
-                                            </div>
-                                            <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
-                                                Desember
-                                            </div>
-                                        </div>
-                                    </div>">
-                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Pertumbuhan Sektor Kehutanan, Perikanan, dan Pertanian</div>
-                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">80%</div>
+                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Kontribusi Produk Domestik Regional Bruto (PDRB)</div>
+                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">3.21%</div>
                                 </div>
                                 
                             </div>
@@ -190,45 +169,24 @@
     
                                 <div class="row mx-0" data-toggle="tooltip" data-html="true" data-placement="right" 
                                     title="<div style='max-width:500px;width:500px;position:relative;overflow:auto;'>
-                                        <div class='font-weight-bold'>Nilai Tukar Petani</div> 
-                                        <br> Nilai tukar petani adalah rasio antara indeks harga yang diterima petani dengan indeks harga yang dibayar petani yang dinyatakan dalam persentase. Nilai tukar petani merupakan salah satu indikator dalam menentukan tingkat kesejahteraan petani. 
+                                        <div class='font-weight-bold'>Pertumbuhan Omset</div> 
+                                        <br> Pertumbuhan omzet perusahaan kecil yang dimiliki dan dikelola oleh seseorang atau dimiliki oleh sekelompok kecil orang pada tahun 2019. 
                                         <div class='row mx-0 pt-3'>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
+                                                <div class='h5 p-0 m-0'>13,41</div>
                                                 November
                                             </div>
-                                            <div class='col-2 p-0 my-auto text-danger'>
-                                                <div class='h3 m-0 p-0 fas fa-sort-down'></div>
+                                            <div class='col-2 p-0 my-auto text-success'>
+                                                <div class='h3 m-0 p-0 fas fa-caret-up'></div>
                                             </div>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
+                                                <div class='h5 p-0 m-0'>14,18</div>
                                                 Desember
                                             </div>
                                         </div>
                                     </div>">
-                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Nilai Tukar Petani</div>
-                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">101,49</div>
-                                </div>
-                                <div class="row mx-0" data-toggle="tooltip" data-html="true" data-placement="right" 
-                                    title="<div style='max-width:500px;width:500px;position:relative;overflow:auto;'>
-                                        <div class='font-weight-bold'>Nilai Tukar Petani</div> 
-                                        <br> Nilai tukar petani adalah rasio antara indeks harga yang diterima petani dengan indeks harga yang dibayar petani yang dinyatakan dalam persentase. Nilai tukar petani merupakan salah satu indikator dalam menentukan tingkat kesejahteraan petani. 
-                                        <div class='row mx-0 pt-3'>
-                                            <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
-                                                November
-                                            </div>
-                                            <div class='col-2 p-0 my-auto text-danger'>
-                                                <div class='h3 m-0 p-0 fas fa-sort-down'></div>
-                                            </div>
-                                            <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
-                                                Desember
-                                            </div>
-                                        </div>
-                                    </div>">
-                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Pertumbuhan Sektor Kehutanan, Perikanan, dan Pertanian</div>
-                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">80%</div>
+                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Pertumbuhan Omset</div>
+                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">13,41</div>
                                 </div>
                                 
                             </div>
@@ -261,45 +219,45 @@
     
                                 <div class="row mx-0" data-toggle="tooltip" data-html="true" data-placement="right" 
                                     title="<div style='max-width:500px;width:500px;position:relative;overflow:auto;'>
-                                        <div class='font-weight-bold'>Nilai Tukar Petani</div> 
-                                        <br> Nilai tukar petani adalah rasio antara indeks harga yang diterima petani dengan indeks harga yang dibayar petani yang dinyatakan dalam persentase. Nilai tukar petani merupakan salah satu indikator dalam menentukan tingkat kesejahteraan petani. 
+                                        <div class='font-weight-bold'>Angka Kematian Ibu</div> 
+                                        <br> Angka kematian ibu yang disebabkan karena  pendarahan, infeksi, eklamsi/PEB, atau lain-lain pada tahun 2020. 
                                         <div class='row mx-0 pt-3'>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
-                                                November
+                                                <div class='h5 p-0 m-0'>416</div>
+                                                2019
                                             </div>
                                             <div class='col-2 p-0 my-auto text-danger'>
                                                 <div class='h3 m-0 p-0 fas fa-sort-down'></div>
                                             </div>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
-                                                Desember
+                                                <div class='h5 p-0 m-0'>238</div>
+                                                2020
                                             </div>
                                         </div>
                                     </div>">
-                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Nilai Tukar Petani</div>
-                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">101,49</div>
+                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Angka Kematian Ibu</div>
+                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">238</div>
                                 </div>
                                 <div class="row mx-0" data-toggle="tooltip" data-html="true" data-placement="right" 
                                     title="<div style='max-width:500px;width:500px;position:relative;overflow:auto;'>
-                                        <div class='font-weight-bold'>Nilai Tukar Petani</div> 
-                                        <br> Nilai tukar petani adalah rasio antara indeks harga yang diterima petani dengan indeks harga yang dibayar petani yang dinyatakan dalam persentase. Nilai tukar petani merupakan salah satu indikator dalam menentukan tingkat kesejahteraan petani. 
+                                        <div class='font-weight-bold'>Angka Kematian Bayi</div> 
+                                        <br> Angka kematian bayi menunjukkan banyaknya kematian bayi usia 0-11 bulan dari setiap 1.000 kelahiran hidup pada tahun tertentu atau dapat dikatakan juga sebagai probabilitas bayi meninggal sebelum mencapai usia satu tahun (dinyatakan dengan per seribu kelahiran hidup). 
                                         <div class='row mx-0 pt-3'>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
+                                                <div class='h5 p-0 m-0'>5.208</div>
                                                 November
                                             </div>
                                             <div class='col-2 p-0 my-auto text-danger'>
                                                 <div class='h3 m-0 p-0 fas fa-sort-down'></div>
                                             </div>
                                             <div class='col-5 p-0'>
-                                                <div class='h5 p-0 m-0'>102,19</div>
+                                                <div class='h5 p-0 m-0'>2.691</div>
                                                 Desember
                                             </div>
                                         </div>
                                     </div>">
-                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Pertumbuhan Sektor Kehutanan, Perikanan, dan Pertanian</div>
-                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">80%</div>
+                                    <div class="w-75 font-12 font-weight-bold text-left my-auto pt-2">Angka Kematian Bayi</div>
+                                    <div class="w-25 font-18 font-weight-bold tet-right my-auto pt-2">2.691</div>
                                 </div>
                                 
                             </div>

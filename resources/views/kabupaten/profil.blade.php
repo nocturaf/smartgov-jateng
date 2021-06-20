@@ -66,7 +66,7 @@
     </div>
 </div>
 
-<div class="container-fluid bg-overlay-blue pb-5" style="margin-top:-24px">
+<div class="container-fluid bg-overlay-blue py-5">
     <div class="row mx-0">
         <div class="col-6 pl-4 pr-5 border-right">
             <div class="font-24 font-weight-bold text-center">Pendapatan Asli Daerah</div>
